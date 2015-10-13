@@ -1,0 +1,42 @@
+{
+  "name": "brutime-cli",
+  "version": "1.0.0",
+  "description": "Brunel Calender CLI",
+  "main": "bin.js",
+  "bin": {
+    "brutime": "bin.js"
+  },
+  "scripts": {
+    "test": "standard && node test.js | tap-spec",
+    "cover": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/brutime-cli.git"
+  },
+  "keywords": [
+    "brunel",
+    "university",
+    "calender",
+    "timetable"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencevans/brutime-cli/issues"
+  },
+  "homepage": "https://github.com/bencevans/brutime-cli#readme",
+  "dependencies": {
+    "brutime": "^1.0.0-0",
+    "cli-table": "^0.3.1",
+    "ical-generator": "^0.2.4",
+    "minimist": "^1.2.0",
+    "tap-spec": "^4.1.0"
+  },
+  "devDependencies": {
+    "nyc": "^3.2.2",
+    "standard": "^5.3.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.1"
+  }
+}
