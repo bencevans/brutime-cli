@@ -32,15 +32,14 @@ Formats:
 
   table (default)                    Print a table similar to the output on https://teaching.brunel.ac.uk/SWS-1516
   json                               Print a JSON representation
-  ical                               Print in ical format, useful for importing into calendars
 
 Examples:
 
   Print your timetable in a table similar to timetabling website:
   $ brutime scrape
 
-  Generate an ical file to import into your calendar:
-  $ brutime scrape -f ical
+  Generate a JSON output:
+  $ brutime scrape -f json
 ```
 
 ## Related

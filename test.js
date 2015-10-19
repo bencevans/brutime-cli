@@ -75,10 +75,3 @@ test('json reporter', function (t) {
     t.error(err, 'exits ok')
   })
 })
-
-test('ical reporter', function (t) {
-  t.plan(1)
-  exec('./bin.js scrape -f ical', function (err) {
-    t.error(err, 'exits ok')
-  })
-})
