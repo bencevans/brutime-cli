@@ -43,7 +43,7 @@ const timetable = new BruTime({
 * Options
 */
 
-const reporterName = argv.f || argv.format || 'json'
+const reporterName = argv.f || argv.format || 'table'
 const period = argv.period || '1-12'
 const days = argv.days || '1-7'
 
