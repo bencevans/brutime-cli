@@ -44,7 +44,7 @@ const timetable = new BruTime({
 */
 
 const reporterName = argv.f || argv.format || 'table'
-const period = argv.period || '1-12'
+const period = argv.period || '1-52'
 const days = argv.days || '1-7'
 
 /*

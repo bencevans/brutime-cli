@@ -25,7 +25,7 @@ Options:
 
   -v, --version                      Print version information and quit
   -f, --format=table                 Reporter format
-      --period=1-12                  University weeks to scrape
+      --period=1-52                  University weeks to scrape
       --days=1-7                     Days of the week to scrape
 
 Formats:
