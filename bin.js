@@ -44,7 +44,7 @@ const timetable = new BruTime({
 */
 
 const reporterName = argv.f || argv.format || 'table'
-const period = argv.period || '1-12'
+const period = argv.period || '1-52'
 const days = argv.days || '1-7'
 
 /*
@@ -55,6 +55,7 @@ var reporter
 try {
   reporter = require(__dirname + '/reporters/' + reporterName)
 } catch (e) {
+  console.log(e)
   if (e.code === 'MODULE_NOT_FOUND') {
     handleError(new Error('Unknown reporter \'' + reporterName + '\''))
   } else {

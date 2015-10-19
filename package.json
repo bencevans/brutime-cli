@@ -29,9 +29,12 @@
   "dependencies": {
     "brutime": "^1.0.0-0",
     "cli-table": "^0.3.1",
+    "cozy-ical": "^1.1.14",
     "ical-generator": "^0.2.4",
     "minimist": "^1.2.0",
-    "tap-spec": "^4.1.0"
+    "moment": "^2.10.6",
+    "tap-spec": "^4.1.0",
+    "uuid": "^2.0.1"
   },
   "devDependencies": {
     "nyc": "^3.2.2",
