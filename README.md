@@ -11,7 +11,7 @@ $ npm install --global brutime-cli
 ## Usage
 
 ```
-Usage: brutime [OPTIONS] COMMAND [arg...]
+Usage: LOGIN=student-id PASSWORD=student-password brutime [OPTIONS] COMMAND [arg...]
        brutime [ --help | -v | --version ]
 
 A command line client for Brunel's Timetabling system.
